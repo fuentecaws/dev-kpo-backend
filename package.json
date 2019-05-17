@@ -1,0 +1,29 @@
+{
+  "name": "dev-kpo-backend",
+  "version": "1.0.0",
+  "description": "Este código es la base para consumir los distintos microservicios, asociados al nuevo modelo de Kappo Bike\r Versión: Developers\r _______________________\r Created by: Carlos Fuentes Novoa / IT Leader\r Date: 2019/05/16",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kappobike/dev-kpo-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kappobike/dev-kpo-backend/issues"
+  },
+  "homepage": "https://github.com/kappobike/dev-kpo-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "mysql": "^2.17.1",
+    "serverless-http": "^2.0.2"
+  },
+  "devDependencies": {
+    "serverless-offline": "^4.10.3"
+  }
+}
